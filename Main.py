@@ -3,7 +3,7 @@ import os.path as px
 from time import sleep
 def Main():
     if(px.exists("HottaGame.exe")):
-        os.system("HottaGame /launcher")
+        os.system("start HottaGame /launcher")
         print("Successfully Bypassed... This Bypass is Created by RikkoMatsumatoOfficial")
         sleep(4)
         os._exit(433)
